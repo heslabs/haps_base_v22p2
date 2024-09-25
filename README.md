@@ -37,10 +37,23 @@ Build the application software for RTL simulation flow. Folow the steps to launc
   $ cd ./appsw/memorytests
   $ cp -rf ../workspace/main/src .
   ```
+  
 * Modify the application code in command mode \
   ```$ vim ./appsw/memorytests/src/memorytest.c```
+  
 * Build the Vitis project and generate elf file in command mode \
   ```$ make app-cmd```
+  
 * Launch the RTL simulaiton and view the dumped waveform \
   ```$ make sim```
-   
+  
+* Copy the simulation waveform (*.wdb) into SW test case
+  ```
+  $ cd ./vivado && ln -s ../appsw/$(APP)/tb.wdb .
+  $ cd ./vivado && cp -f ../appsw/$(APP)/tb_behav.wcfg .
+  ```
+  
+* Launch waveform viewer for SW test case
+  ```
+  $ cd ./vivado && vivado -mode gui -project ./$(PRJ).xpr -source ../appsw/$(APP)/xsim_wave.tcl &
+  ```
