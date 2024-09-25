@@ -30,4 +30,15 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 * Lunch the generated testbench script "tb.sh"
 * Open the dumped waveform file (*.wdb) with selected signals (tb_behav.wcfg)
 
+---
+### Application test case
+
+* Copy the application source from workspace
+     ```
+     $ cd ./appsw/memorytests
+     $ cp -rf ../workspace/main/src .
+     ```
+* Modify the application code in command mode
+* Build the Vitis project and generate elf file in command mode
+* Launch the RTL simulaiton and view the dumped waveform 
    
