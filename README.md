@@ -30,7 +30,7 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 * Open the dumped waveform file (*.wdb) with selected signals (tb_behav.wcfg)
 
 ---
-### Application test case
+### Application SW Test Flow
 
 * Copy the application source from workspace
   ```
