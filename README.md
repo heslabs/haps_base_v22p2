@@ -33,11 +33,11 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 ### Application test case
 
 * Copy the application source from workspace
-     ```
-     $ cd ./appsw/memorytests
-     $ cp -rf ../workspace/main/src .
-     ```
-* Modify the application code in command mode
+  ```
+  $ cd ./appsw/memorytests
+  $ cp -rf ../workspace/main/src .
+  ```
+* Modify the application code in command mode \
   ``` $ vim ./appsw/memorytests/src/memorytest.c```
 * Build the Vitis project and generate elf file in command mode \
   ```$ make app-cmd```
