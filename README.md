@@ -28,6 +28,6 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 * Association the elf files in Vivado
 * Export the simulation for Vivado XSIM simualtor
 * Lunch the generated testbench script "tb.sh"
-* Open the dumped waveform file (*.wdb) with selected signals (tv_behav.wcfg)
+* Open the dumped waveform file (*.wdb) with selected signals (tb_behav.wcfg)
 
    
