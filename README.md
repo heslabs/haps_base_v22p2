@@ -6,17 +6,16 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 ### Vivado HW Development Flow
 
 * Create design based on prebuit reference (top.tcl) \
-     ```$ make new```
+  ```$ make new```
 * Add your custom IP into the referecne and validate it
-    
 * Export the hardware in Vivado (top_wrapper.xsa) \
-    ```$ make exp```
+  ```$ make exp```
 
 ---  
 ### Vitis SW Development Flow
 
-* Create new application project in Vitis
-    ```$ make app-new```
+* Create new application project in Vitis \
+  ```$ make app-new```
 * Select the xsa file from hardware export for platform   
 * Enter the platform name: "main", this will be used in tcl command later  
 * Create C/C++ program from the template
