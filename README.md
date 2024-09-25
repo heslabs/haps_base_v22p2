@@ -56,4 +56,8 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 * Launch waveform viewer for SW test case
   ```
   $ cd ./vivado && vivado -mode gui -project ./$(PRJ).xpr -source ../appsw/$(APP)/xsim_wave.tcl &
+  ### xsim_wave.tcl
+  set_property target_simulator XSim [current_project]
+  open_wave_database {./tb.wdb}
+  open_wave_config  -quiet ./tb_behav.wcfg
   ```
