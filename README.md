@@ -38,9 +38,7 @@ Build the application software for RTL simulation flow. Folow the steps to launc
      $ cp -rf ../workspace/main/src .
      ```
 * Modify the application code in command mode
-    ```
-    $ vim ./appsw/memorytests/src/memorytest.c
-    ```
+  ``` $ vim ./appsw/memorytests/src/memorytest.c```
 * Build the Vitis project and generate elf file in command mode \
   ```$ make app-cmd```
 * Launch the RTL simulaiton and view the dumped waveform \
