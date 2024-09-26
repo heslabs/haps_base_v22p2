@@ -1,5 +1,21 @@
 # Simulation Waveform
 
+---
+### Application code
+```
+int main() {
+    sint32 i;
+    init_platform();
+    u32 rdDATA;
+    xil_printf("BRAM\n\r");
+    for (u64 i = 0; i < 32; i=i+4) {
+        Xil_Out32(0x20000000+i, testDATA);}
+    for (u64 i = 0; i < 32; i=i+4) {
+        rdDATA = Xil_In32(0x20000000+i);
+        //xil_printf(rdDATA == testDATA ? "PASS":"FAIL"); xil_printf("\n\r");}
+    xil_printf("END\n\r");
+}
+```
 
 ---
 ### AXI Transaction
