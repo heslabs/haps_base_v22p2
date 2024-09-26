@@ -28,11 +28,28 @@ $ cd ./appsw/workspace && vitis --workspace . &
   * Application project name: main
 
 ---
-<img src="https://github.com/user-attachments/assets/f578b841-9f0c-4054-87d6-f008de624e01" width=500>\
+<img src="https://github.com/user-attachments/assets/f578b841-9f0c-4054-87d6-f008de624e01" width=600>\
 
-<img src="https://github.com/user-attachments/assets/b36276eb-fcc5-496f-9d02-fee1a92ea7b2" width=500>\
+<img src="https://github.com/user-attachments/assets/b36276eb-fcc5-496f-9d02-fee1a92ea7b2" width=600>\
 
-<img src="https://github.com/user-attachments/assets/bbab773a-847f-4b82-afa4-23218681ff87" width=500>\
+<img src="https://github.com/user-attachments/assets/bbab773a-847f-4b82-afa4-23218681ff87" width=600>\
 
-<img src="https://github.com/user-attachments/assets/2f98f830-2f6c-49ce-af4c-ff25725e28a2" width=500> 
+<img src="https://github.com/user-attachments/assets/2f98f830-2f6c-49ce-af4c-ff25725e28a2" width=600> 
+
+---
+#### Select a domain for your project
+
+* Domain details
+ * Name: standalone_microblaze_0
+ * Display Name: standalone_microblaze_0
+ * Operating System: standalone
+ * Processor: microblaze_0
+ * Architecture: 64-bit
+  
+<img src="https://github.com/user-attachments/assets/bd0914ec-9112-4f38-b198-e8695fed9e51" width=600>
+
+---
+#### Select a template to create your project
+* Select template: Memory Tests
+<img src="https://github.com/user-attachments/assets/37b82c4d-93ca-45c2-9686-a52ed6c6d1d6" width=600>
 
