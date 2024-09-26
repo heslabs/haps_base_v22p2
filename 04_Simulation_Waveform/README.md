@@ -20,8 +20,9 @@ int main() {
 
 ---
 ### AXI Transaction
-* 4 write transaction followed by 
-* 4 read transaction
+* 4 write transactions
+* 4 read transactions after write transaction
+* Check the **rddata** is equivalent to **wrdata**
 
 ---
 <img src="https://github.com/user-attachments/assets/18d34b95-06fe-4a52-ba8f-78d1ce0e0b2a" width=1200>
