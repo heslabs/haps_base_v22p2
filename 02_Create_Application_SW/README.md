@@ -3,7 +3,7 @@
 ---
 ## Vitis Software Flow
 1. Launch Vitis IDE and create project workspace
-2. Create New Application Project
+2. Create new application project
 3. Create a new platform from hardware (XSA)
 4. Create domain for your project: standalone
 5. Build project and wait for build finished
