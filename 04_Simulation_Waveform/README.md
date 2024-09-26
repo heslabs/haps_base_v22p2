@@ -21,7 +21,7 @@ int main() {
 ---
 ### AXI Transaction
 * 4 write transactions
-* 4 read transactions after write transaction
+* 4 read transactions after write transactions
 * Check the **rddata** is equivalent to **wrdata**
 
 ---
