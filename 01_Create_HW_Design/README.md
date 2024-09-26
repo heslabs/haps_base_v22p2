@@ -1,6 +1,32 @@
 # Create HW design in Vivado GUI
 
 ---
-### Vivado Flow
+### Vivado HW Development Flow
+
+Step 1. Create design based on prebuit reference (top.tcl) \
+  ``` $ make new ```
+
+Step 2. Add your custom IP into the referecne and validate it \
+Export the hardware in Vivado (top_wrapper.xsa)
+  ``` $ make exp ```
 
 
+---
+### Step 1. Create design based on prebuit reference
+
+---
+<img src="https://github.com/user-attachments/assets/880bccb3-b800-4077-ae2a-19c4f647e1b7" width=800>
+
+---
+<img src="https://github.com/user-attachments/assets/ab714634-5292-4c33-a454-4f41e75bb6bb" width=1200>
+
+### Top-level Block Diagram
+---
+<img src="https://github.com/user-attachments/assets/37dfa0f9-ec63-491f-80bd-19a6ec16cee1" width=1200>
+
+
+---
+<img src="https://github.com/user-attachments/assets/f1fe8de0-87e1-43be-82f4-9c4426932adb" width=1200>
+
+---
+### Step 2. Add your custom IP into the referecne and validate it
