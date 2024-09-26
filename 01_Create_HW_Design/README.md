@@ -6,7 +6,11 @@
 Step 1. Create design based on prebuit reference (top.tcl) \
   ``` $ make new ```
 
-Step 2. Add your custom IP into the referecne and validate it \
+Step 2. Configure the Vivado IP \
+
+Step 3. Add your custom IP \
+  
+Step 4. Validate the design and export hardware \
 Export the hardware in Vivado (top_wrapper.xsa)
   ``` $ make exp ```
 
@@ -27,6 +31,9 @@ Export the hardware in Vivado (top_wrapper.xsa)
 
 ---
 <img src="https://github.com/user-attachments/assets/f1fe8de0-87e1-43be-82f4-9c4426932adb" width=1200>
+
+---
+### Step 2. Configure the Vivado IP
 
 ---
 #### Microblaze MCU Configuration
@@ -56,8 +63,18 @@ Export the hardware in Vivado (top_wrapper.xsa)
 
 <img src="https://github.com/user-attachments/assets/e3c665dc-72c9-44c7-89d4-7e3a4f2a9f44" width=800>
 
-
-
+---
+### Step 3. Add your custom IP
 
 ---
-### Step 2. Add your custom IP into the referecne and validate it
+### Step 4. Validate the design and export hardware
+
+#### Validate Design
+---
+<img src="https://github.com/user-attachments/assets/db6e12cd-392e-4d07-b0ef-ae92132a4f23" width=600>
+
+#### Export Hardware
+---
+<img src="https://github.com/user-attachments/assets/3ec5f738-558e-4f0b-b3b2-b54430f0ab61" width=600>
+
+
