@@ -20,13 +20,26 @@ Export the hardware in Vivado (top_wrapper.xsa)
 ---
 <img src="https://github.com/user-attachments/assets/ab714634-5292-4c33-a454-4f41e75bb6bb" width=1200>
 
-### Top-level Block Diagram
 ---
-<img src="https://github.com/user-attachments/assets/37dfa0f9-ec63-491f-80bd-19a6ec16cee1" width=1200>
-
+#### Top-level Block Diagram
+---
+<img src="https://github.com/user-attachments/assets/c596741a-7970-4cdb-a702-7518e79cbd65" width=1200>
 
 ---
 <img src="https://github.com/user-attachments/assets/f1fe8de0-87e1-43be-82f4-9c4426932adb" width=1200>
+
+---
+#### Microblaze MCU Configuration
+
+---
+<img src="https://github.com/user-attachments/assets/d4ee2782-aa92-405b-8b0f-c73926592108" width=1000>
+
+--- 
+<img src="https://github.com/user-attachments/assets/8fc0e1d1-4e38-42bf-a8ca-df2c89b14102" width=1000>
+
+ 
+
+
 
 ---
 ### Step 2. Add your custom IP into the referecne and validate it
