@@ -11,14 +11,14 @@ $ cd ./appsw/workspace && vitis --workspace . &
 
 
 ---
-#### Create New Application Project
+### Create New Application Project
 
 <img src="https://github.com/user-attachments/assets/4263a575-73f7-401c-b427-40b8a6be4217" width=500>\
 
 <img src="https://github.com/user-attachments/assets/6b970697-963b-449d-8d37-625000257002" width=500>
 
 ---
-#### Select a platform to create the project
+### Select a platform to create the project
 
 * Create a new platform from hardware (XSA)
 * Browser the XSA file "top_wrapper.xsa" in workspace folder
@@ -37,7 +37,7 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/2f98f830-2f6c-49ce-af4c-ff25725e28a2" width=600> 
 
 ---
-#### Select a domain for your project
+### Select a domain for your project
 
 * Domain details
   * Name: standalone_microblaze_0
@@ -49,7 +49,7 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/bd0914ec-9112-4f38-b198-e8695fed9e51" width=600>
 
 ---
-#### Select a template to create your project
+### Select a template to create your project
 * Select template: Memory Tests
 <img src="https://github.com/user-attachments/assets/37b82c4d-93ca-45c2-9686-a52ed6c6d1d6" width=600>
 
@@ -63,5 +63,9 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/bbf476e5-0d3d-4723-a652-94e346bee526" width=800>\
 <img src="https://github.com/user-attachments/assets/3aa72ba4-8391-494f-b984-138c2fd6d4d0" width=800>\
 
+---
+### Build project and wait for build finished
+
+<img src="https://github.com/user-attachments/assets/e6766660-2253-4380-8857-ea0db1f42380" width=800>\
 
 
