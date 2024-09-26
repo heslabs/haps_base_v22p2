@@ -1,6 +1,14 @@
 # Create Application Software
 
 ---
+## Vitis Software Flow
+1. Launch Vitis IDE and create project workspace
+2. Create New Application Project
+3. Create a new platform from hardware (XSA)
+4. Create domain for your project: standalone
+5. Build project and wait for build finished
+
+---
 ### Launch Vitis IDE and create project workspace
 ```
 $ source ./setenv.sh
@@ -18,9 +26,9 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/6b970697-963b-449d-8d37-625000257002" width=500>
 
 ---
-### Select a platform to create the project
+### Create a new platform from hardware (XSA)
 
-* Create a new platform from hardware (XSA)
+* Select platform from prebuilt XSA file
 * Browser the XSA file "top_wrapper.xsa" in workspace folder
   * XSA File: /appsw/workspace/top_wrapper.xsa
   * Platform name: top_wrapper
@@ -37,7 +45,7 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/2f98f830-2f6c-49ce-af4c-ff25725e28a2" width=600> 
 
 ---
-### Select a domain for your project
+### Create domain for your project
 
 * Domain details
   * Name: standalone_microblaze_0
@@ -54,7 +62,7 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/37b82c4d-93ca-45c2-9686-a52ed6c6d1d6" width=600>
 
 ---
-### Vitis IDE - EXplorer
+### Vitis IDE - Explorer
 * main_system
   * src: memorytest.c, memory_config_g.c
 
