@@ -77,4 +77,17 @@ Export the hardware in Vivado (top_wrapper.xsa)
 ---
 <img src="https://github.com/user-attachments/assets/3ec5f738-558e-4f0b-b3b2-b54430f0ab61" width=600>
 
+---
+<img src="https://github.com/user-attachments/assets/c3235c1c-963b-48ef-809e-8db26cc4cab5" width=600>
+
+---
+<img src="https://github.com/user-attachments/assets/091769b4-8ac1-4859-8a08-ec9488a0364a" width=600>
+
+---
+<img src="https://github.com/user-attachments/assets/7f4325eb-0467-4222-8476-110c5939ed05" width=600>
+
+---
+<img src="https://github.com/user-attachments/assets/eb39c05e-e211-4b01-92cb-be18abd97037" width=600>
+
+
 
