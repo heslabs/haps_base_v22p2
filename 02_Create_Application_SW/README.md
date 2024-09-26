@@ -53,3 +53,15 @@ $ cd ./appsw/workspace && vitis --workspace . &
 * Select template: Memory Tests
 <img src="https://github.com/user-attachments/assets/37b82c4d-93ca-45c2-9686-a52ed6c6d1d6" width=600>
 
+---
+### Vitis IDE - EXplorer
+* main_system
+  * src: memorytest.c, memory_config_g.c
+
+---
+<img src="https://github.com/user-attachments/assets/396c2c0e-0f0d-4d29-95b5-281c3848f828" width=800>\
+<img src="https://github.com/user-attachments/assets/bbf476e5-0d3d-4723-a652-94e346bee526" width=800>\
+<img src="https://github.com/user-attachments/assets/3aa72ba4-8391-494f-b984-138c2fd6d4d0" width=800>\
+
+
+
