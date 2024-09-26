@@ -3,16 +3,17 @@
 ---
 ### Vivado HW Development Flow
 
-Step 1. Create design based on prebuit reference (top.tcl) \
-  ``` $ make new ```
+* Step 1. Create design based on prebuit reference (top.tcl) \
+    ``` $ make new ```
 
-Step 2. Configure the Vivado IP \
+* Step 2. Configure the Vivado IP \
 
-Step 3. Add your custom IP \
+* Step 3. Add your custom IP \
   
-Step 4. Validate the design and export hardware \
-Export the hardware in Vivado (top_wrapper.xsa)
-  ``` $ make exp ```
+* Step 4. Validate the design and export hardware \
+
+* Step 5. Export the hardware in Vivado (top_wrapper.xsa) \
+    ``` $ make exp ```
 
 
 ---
