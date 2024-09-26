@@ -38,10 +38,23 @@ export_simulation  -export_source_files -force -directory ./ -simulator xsim  -i
 ```
 
 ---
-### Launch Simulation
+### Launch RTL Simulation
 * Launch scripts: tb.sh
 ```
 $ cd ./vivado/xsim && ./tb.sh
+
+### tb.sh
+# RUN_STEP: <elaborate>
+elaborate()
+{
+  xelab --incr --debug typical --relax --mt auto  -L axi_bram_ctrl_v4_1_7 -L xil_defaultlib .....
+
+#RUN_STEP: <simulate>
+simulate()
+{
+  xsim  tb -key {Behavioral:sim_1:Functional:tb} -tclbatch cmd.tcl -protoinst "protoinst_files/bd_1e58.protoinst" -protoinst "protoinst_files/bd_acc6.protoinst" -protoinst "protoinst_files/bd_0696.protoinst" -protoinst "protoinst_files/bd_c637.protoinst" -protoinst "protoinst_files/top.protoinst" -log simulate.log
+}
+
 ```
 
 
