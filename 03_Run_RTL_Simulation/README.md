@@ -3,10 +3,10 @@
 ---
 ## Vivado Simulation Flow
 
-* Association the elf files in Vivado
-* Export the simulation for Vivado XSIM simualtor
-* Lunch the generated testbench script "tb.sh"
-* Open the dumped waveform file (*.wdb) with selected signals (tb_behav.wcfg)
+1. Association the elf files in Vivado2
+2. Export the simulation for Vivado XSIM simualtor
+3. Lunch the generated testbench script "tb.sh"
+4. Open the dumped waveform file (*.wdb) with selected signals (tb_behav.wcfg)
 
 ---
 ### Associate ELF
