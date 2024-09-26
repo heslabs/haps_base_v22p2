@@ -2,14 +2,15 @@
 
 ---
 ## Vitis Software Flow
-1. Launch Vitis IDE and create project workspace
-2. Create new application project
-3. Create a new platform from hardware (XSA)
-4. Create domain for your project: standalone
-5. Build project and wait for build finished
+* Step 1. Launch Vitis IDE and create project workspace
+* Step 2. Create new application project
+* Step 3. Create a new platform from hardware (XSA)
+* Step 4. Create domain for your project: standalone
+* Step 5. Explorer the C/C++ source code 
+* Step 6. Build project and wait for build finished
 
 ---
-### Launch Vitis IDE and create project workspace
+### Step 1: Launch Vitis IDE and create project workspace
 ```
 $ source ./setenv.sh
 $ cd ./appsw && \rm -rf workspace && mkdir ./workspace
@@ -19,14 +20,14 @@ $ cd ./appsw/workspace && vitis --workspace . &
 
 
 ---
-### Create New Application Project
+### Step 2: Create New Application Project
 
 <img src="https://github.com/user-attachments/assets/4263a575-73f7-401c-b427-40b8a6be4217" width=500>\
 
 <img src="https://github.com/user-attachments/assets/6b970697-963b-449d-8d37-625000257002" width=500>
 
 ---
-### Create a new platform from hardware (XSA)
+### Step 3: Create a new platform from hardware (XSA)
 
 * Select platform from prebuilt XSA file
 * Browser the XSA file "top_wrapper.xsa" in workspace folder
@@ -45,16 +46,16 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/2f98f830-2f6c-49ce-af4c-ff25725e28a2" width=600> 
 
 ---
-### Create domain for your project
+### Step 4: Create domain for your project
 
 * Domain details
   * Name: standalone_microblaze_0
   * Display Name: standalone_microblaze_0
   * Operating System: standalone
   * Processor: microblaze_0
-  * Architecture: 64-bit
-  
-<img src="https://github.com/user-attachments/assets/bd0914ec-9112-4f38-b198-e8695fed9e51" width=600>
+  * Architecture: 32-bit 
+---
+<img src="https://github.com/user-attachments/assets/f5d5afc5-54ea-4ea4-8c8a-5941e2f451ad" width=600>
 
 ---
 ### Select a template to create your project
@@ -62,7 +63,7 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/37b82c4d-93ca-45c2-9686-a52ed6c6d1d6" width=600>
 
 ---
-### Vitis IDE - Explorer
+### Step 5: Explorer the C/C++ source code 
 * main_system
   * src: memorytest.c, memory_config_g.c
 
@@ -72,7 +73,7 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/3aa72ba4-8391-494f-b984-138c2fd6d4d0" width=800>\
 
 ---
-### Build project and wait for build finished
+### Step 6: Build project and wait for build finished
 
 <img src="https://github.com/user-attachments/assets/e6766660-2253-4380-8857-ea0db1f42380" width=800>\
 
