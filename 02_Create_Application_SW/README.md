@@ -40,11 +40,11 @@ $ cd ./appsw/workspace && vitis --workspace . &
 #### Select a domain for your project
 
 * Domain details
- * Name: standalone_microblaze_0
- * Display Name: standalone_microblaze_0
- * Operating System: standalone
- * Processor: microblaze_0
- * Architecture: 64-bit
+  * Name: standalone_microblaze_0
+  * Display Name: standalone_microblaze_0
+  * Operating System: standalone
+  * Processor: microblaze_0
+  * Architecture: 64-bit
   
 <img src="https://github.com/user-attachments/assets/bd0914ec-9112-4f38-b198-e8695fed9e51" width=600>
 
