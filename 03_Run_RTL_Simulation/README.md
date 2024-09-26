@@ -3,13 +3,20 @@
 ---
 ## Vivado Simulation Flow
 
-1. Association the elf files in Vivado2
-2. Export the simulation for Vivado XSIM simualtor
-3. Lunch the generated testbench script "tb.sh"
-4. Open the dumped waveform file (*.wdb) with selected signals (tb_behav.wcfg)
+* Step 1. Association the elf files in Vivado2
+* Step 2. Export the simulation for Vivado XSIM simualtor
+* Step 3. Lunch the generated testbench script "tb.sh"
+* Step 4. Open the dumped waveform file (*.wdb) with selected signals (tb_behav.wcfg)
 
 ---
-### Associate ELF
+## Launch the RTL simulation in command mode
+* Run through all the steps in the Makefile
+```
+$ make sim
+```
+
+---
+### Step 1. Associate ELF
 ```
 $ cd ./vivado && vivado -mode tcl -project ./$(PRJ).xpr -source ../source/vivado_elf.tcl
 
@@ -27,7 +34,7 @@ set_property SCOPED_TO_CELLS { microblaze_0 } [get_files -all -of_objects [get_f
 ```
 
 ---
-### Exprt Simulaiton Files
+### Step 2. Exprt Simulaiton Files
 ```
 $ cd ./vivado && vivado -mode tcl -project ./$(PRJ).xpr -source ../source/vivado_xsim.tcl
 $ cd ./vivado/xsim && cp -f ../../source/xsim_cmd.tcl ./cmd.tcl
@@ -38,7 +45,7 @@ export_simulation  -export_source_files -force -directory ./ -simulator xsim  -i
 ```
 
 ---
-### Launch RTL Simulation
+### Step 3. Launch RTL Simulation
 * Launch scripts: tb.sh
 ```
 $ cd ./vivado/xsim && ./tb.sh
@@ -59,7 +66,7 @@ simulate()
 
 
 ---
-### Open the dumped waveform
+### Step 4. Open the dumped waveform
 
 ```
 $ cd ./vivado && vivado -mode gui -project ./$(PRJ).xpr -source ../source/xsim_wave.tcl &
