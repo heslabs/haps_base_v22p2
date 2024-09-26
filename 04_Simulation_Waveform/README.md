@@ -3,6 +3,7 @@
 ---
 ### Application code
 ```
+#define testDATA 0xB3B2B1B0
 int main() {
     sint32 i;
     init_platform();
