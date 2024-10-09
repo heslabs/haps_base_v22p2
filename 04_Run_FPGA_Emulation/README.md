@@ -1,9 +1,9 @@
 # Run FPGA Emilation
 
 1. Prepare you application software "apps.elf"
-2. Launch Xilinx system command line tool with tcl script \ 
-  ```$ xsct ../scripts/xsct_uartcmd.tcl $(HAPS_IP)```
-3. Check the results in uart.log 
+2. Launch Xilinx system command line tool with tcl script \
+```$ xsct ../scripts/xsct_uartcmd.tcl $(HAPS_IP)```
+3. Check the results in "uart.log" 
 
 ---
 ## xsct_uartcmd.tcl
