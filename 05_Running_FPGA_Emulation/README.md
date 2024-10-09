@@ -1,5 +1,9 @@
 # Run FPGA Emilation
 
+## Download embedded software and launch emulation
+Download your application software for Microblaze MCU and launch the FPGA emulaiton at runtime. Note that the prerequisites
+are the FPGA bitstream was successfully programmed and the Microblaze MCU in the HW design works funcitonal.
+
 1. Prepare you application software "apps.elf"
 2. Launch Xilinx system command line tool with tcl script \
 ```$ xsct ../scripts/xsct_uartcmd.tcl $(HAPS_IP)```
