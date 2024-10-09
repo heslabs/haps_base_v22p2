@@ -1,4 +1,4 @@
-# haps_mbmcu_v22p2
+# mpc2c_mbz_v22p2
 
 Build the application software for RTL simulation flow. Folow the steps to launch the RTL simualtion with application software running on Microblaze MCU
 
