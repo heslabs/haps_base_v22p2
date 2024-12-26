@@ -1,4 +1,4 @@
-# mpc2c_mbz_v22p2
+# Microblaze MCU FPGA Design Example
 
 Build the application software for RTL simulation flow. Folow the steps to launch the RTL simualtion with application software running on Microblaze MCU
 
