@@ -2,13 +2,20 @@
 
 Build the application software for RTL simulation flow. Folow the steps to launch the RTL simualtion with application software running on Microblaze MCU
 
-| # | Training Module | Page |
-|:-:|:-|:-|
-| 1 | Vivado HW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/01_Create_HW_Design) |
-| 2 | Vitis SW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/02_Create_Application_SW) |
-| 3 | Vivado Simulation Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/03_Run_RTL_Simulation) |
-| 4 | Application SW Test Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Simulation_Waveform) |
-| 5 | Run FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Running_FPGA_Emulation) |
+| # | Training Module | Page | Description |
+|:-:|:-|:-|:-|
+| 1 | Vivado HW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/01_Create_HW_Design) | Create RTL hardware design using Vivado |
+| 2 | Vitis SW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/02_Create_Application_SW) | Build MCU baremetal software using Vitis |
+| 3 | Vivado Simulation Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/03_Run_RTL_Simulation) | Running Verilog simulation using Vivado |
+| 4 | Application SW Test Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Simulation_Waveform) | Running application software in RTL simulation |
+| 5 | Run FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Running_FPGA_Emulation) | Running application software in FPGA emulation |
+
+
+#### Prerequisites
+* Verilog design and simluation 
+* FPGA design and implementaiton methodology
+* AMBA-based SoC architecture 
+
 
 ---  
 ### 1. Vivado HW Development Flow
