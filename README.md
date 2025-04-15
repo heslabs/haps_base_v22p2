@@ -8,7 +8,7 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 | 2 | Vitis SW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/02_Create_Application_SW) |
 | 3 | Vivado Simulation Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/03_Run_RTL_Simulation) |
 | 4 | Application SW Test Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Simulation_Waveform) |
-| 5 | Run FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Running_FPGA_Emulation)) |
+| 5 | Run FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Running_FPGA_Emulation) |
 
 ---  
 ### 1. Vivado HW Development Flow
