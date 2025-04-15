@@ -1,6 +1,16 @@
 # HAPS FPGA Design Example
 
+* Hardware features
+    * FPGA reference design for PS+PL on HAPS system architecture architecture
+    * AXI-C2C interface between PS (Cortex-A53) and PL on HAPS
+    * DDR controller and 16GB DRAM on HAPS
+    * Microbloaze MCU with virtual UART port for simulation and emulaiton 
+* Software features
+    * Vitis software flow for building Microblaze baremetal software
+    * Embedded software reference for running on Microblaze MCU
+    * Running MCU software on both simuation abd FPGA emulation 
 
+---
 | # | Training Module | Page | Description |
 |:-:|:-|:-|:-|
 | 1 | Vivado HW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/01_Create_HW_Design) | Create RTL hardware design using Vivado |
@@ -15,6 +25,18 @@
 * Verilog design and simluation 
 * FPGA design and implementaiton methodology
 * AMBA-based SoC architecture 
+
+
+---
+### FPGA Prototyping Platform - Lab setup
+
+<img src="https://github.com/user-attachments/assets/157ac6fb-461b-402e-96e4-6513b5ec0690" width=850>
+
+---
+### HAPS-SX and Daughter card
+
+<img src="https://github.com/user-attachments/assets/23fcf5dd-3bff-45a7-8453-76a189d734e6" width=850>
+
 
 ---
 ### AMBA-based SoC Architecture
