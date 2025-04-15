@@ -2,6 +2,14 @@
 
 Build the application software for RTL simulation flow. Folow the steps to launch the RTL simualtion with application software running on Microblaze MCU
 
+| # | Training Module | Page |
+|:-:|:-|:-|
+| 1 | Vivado HW Development Flow | [Page]() |
+| 2 | Vitis SW Development Flow | [Page]() |
+| 3 | Vivado Simulation Flow | [Page]() |
+| 4 | Application SW Test Flow | [Page]() |
+
+
 ---  
 ### Vivado HW Development Flow
 
