@@ -1,4 +1,4 @@
-# Run FPGA Emilation
+# Running FPGA Emilation
 
 ## Download embedded software and launch emulation
 Download your application software for Microblaze MCU and launch the FPGA emulaiton at runtime. Note that the prerequisites
