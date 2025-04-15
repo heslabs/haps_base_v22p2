@@ -10,21 +10,19 @@
 | 5 | Program FPGA Bitstream | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Program_FPGA) | Configure HAPS and Program FPGA using Confpro-SX GUI |
 | 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
-
----
-### System Block Diagram
-
-<img src="https://github.com/user-attachments/assets/c8baf5aa-a481-4689-8ffa-03971eac20e4" width=850>
-
----
-<img src="https://github.com/user-attachments/assets/285e3d75-bbee-47f5-a2d2-3137a261021c" width=850>
-
-
 #### Prerequisites
 * Verilog design and simluation 
 * FPGA design and implementaiton methodology
 * AMBA-based SoC architecture 
 
+---
+### AMBA-based SoC Architecture
+
+<img src="https://github.com/user-attachments/assets/c8baf5aa-a481-4689-8ffa-03971eac20e4" width=850>
+
+---
+### Leverage Cortex-A53 CPU subsystem in AMD-Xilinx ZynqMPSoC 
+<img src="https://github.com/user-attachments/assets/285e3d75-bbee-47f5-a2d2-3137a261021c" width=850>
 
 ---  
 ### 1. Vivado HW Development Flow
