@@ -77,10 +77,11 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 * Download your application software for Microblaze MCU and launch the FPGA emulaiton at runtime. Note that the prerequisites are the FPGA bitstream was successfully programmed and the Microblaze MCU in the HW design works funcitonal.
 * Prepare you application software "apps.elf"
 * Launch Xilinx system command line tool with tcl script
+* Check the results in "uart.log"
 
 ```
 $ xsct ../scripts/xsct_uartcmd.tcl $(HAPS_IP)
 ```
-Check the results in "uart.log"
+
 
 
