@@ -17,7 +17,7 @@
 | 2 | Vitis SW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/02_Create_Application_SW) | Build MCU baremetal software using Vitis |
 | 3 | Vivado Simulation Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/03_Run_RTL_Simulation) | Running Verilog simulation using Vivado |
 | 4 | Application SW Test Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Run_Software_Application) | Running application software in RTL simulation |
-| 5 | Program FPGA Bitstream | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Program_FPGA) | Configure HAPS and Program FPGA using Confpro-SX GUI |
+| 5 | Configure and Program FPGA | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Program_FPGA) | Configure HAPS and Program FPGA using Confpro-SX GUI |
 | 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
 ---
