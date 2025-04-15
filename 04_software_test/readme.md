@@ -1,4 +1,4 @@
-# Simulation Waveform
+# Runing Software in RTL Simulation
 
 ---
 ### Application code
