@@ -10,7 +10,8 @@
 | 5 | Program FPGA Bitstream | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Program_FPGA) | Configure HAPS and Program FPGA using Confpro-SX GUI |
 | 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
-#### Prerequisites
+---
+#### Learning Prerequisites
 * Verilog design and simluation 
 * FPGA design and implementaiton methodology
 * AMBA-based SoC architecture 
