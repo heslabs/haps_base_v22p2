@@ -4,10 +4,11 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 
 | # | Training Module | Page |
 |:-:|:-|:-|
-| 1 | Vivado HW Development Flow | [Page]() |
-| 2 | Vitis SW Development Flow | [Page]() |
-| 3 | Vivado Simulation Flow | [Page]() |
-| 4 | Application SW Test Flow | [Page]() |
+| 1 | Vivado HW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/01_Create_HW_Design
+) |
+| 2 | Vitis SW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/02_Create_Application_SW) |
+| 3 | Vivado Simulation Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/03_Run_RTL_Simulation) |
+| 4 | Application SW Test Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Simulation_Waveform) |
 
 
 ---  
