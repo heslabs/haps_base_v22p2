@@ -32,6 +32,14 @@
 
 <img src="https://github.com/user-attachments/assets/a6ae9ef1-3186-4321-974c-7e695fa983c7" width=850>
 
+
+---
+### Remote access to HAPS-Zynq module
+```
+<local> $ sshpass -p demo!@# ssh zynq@59.124.169.195 -X
+<zynq@cx5> $ sshpass -p xilinx ssh xilinx@192.168.50.4 -X
+```
+
 ---
 ### HAPS-SX and Daughter card
 
