@@ -13,13 +13,13 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 
 
 ---
-### System BlockDiagram
+### System Block Diagram
 
-<img src="https://github.com/user-attachments/assets/c8baf5aa-a481-4689-8ffa-03971eac20e4" width=650>
+<img src="https://github.com/user-attachments/assets/c8baf5aa-a481-4689-8ffa-03971eac20e4" width=850>
 
 
 ---
-<img src="https://github.com/user-attachments/assets/285e3d75-bbee-47f5-a2d2-3137a261021c" width=650>
+<img src="https://github.com/user-attachments/assets/285e3d75-bbee-47f5-a2d2-3137a261021c" width=850>
 
 
 #### Prerequisites
