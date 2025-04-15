@@ -79,7 +79,7 @@ Build the application software for RTL simulation flow. Folow the steps to launc
   ```
 
 ---
-### Config HAPS and Program FPGA
+### 5. Config HAPS and Program FPGA
 
 Launch Confpro-SX GUI tools
 ```
