@@ -8,7 +8,7 @@ Build the application software for RTL simulation flow. Folow the steps to launc
 | 2 | Vitis SW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/02_Create_Application_SW) | Build MCU baremetal software using Vitis |
 | 3 | Vivado Simulation Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/03_Run_RTL_Simulation) | Running Verilog simulation using Vivado |
 | 4 | Application SW Test Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Run_Software_Application) | Running application software in RTL simulation |
-| 5 | Program FPGA Bitstream | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Program_FPGA) | Program FPGA using Confpro-SX GUI |
+| 5 | Program FPGA Bitstream | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Program_FPGA) | Configure HAPS and Program FPGA using Confpro-SX GUI |
 | 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
 
@@ -79,7 +79,17 @@ Build the application software for RTL simulation flow. Folow the steps to launc
   ```
 
 ---
-### 5. Run FPGA Emulation Flow
+### Config HAPS and Program FPGA
+
+Launch Confpro-SX GUI tools
+```
+$ export CONFPRO_HOME=/home/eda/Confpro-SX_1.1.10
+$(CONFPRO_HOME)/guibin/Confpro-SX-GuiRun.sh
+/home/eda/Confpro-SX_1.1.10/guibin/Confpro-SX-GuiRun.sh (/bin/Confpro-SX)
+```
+
+---
+### 6. Run FPGA Emulation Flow
 
 * Download embedded software and launch emulation
 * Download your application software for Microblaze MCU and launch the FPGA emulaiton at runtime. Note that the prerequisites are the FPGA bitstream was successfully programmed and the Microblaze MCU in the HW design works funcitonal.
