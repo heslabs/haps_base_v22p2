@@ -30,7 +30,7 @@
 ---
 ### FPGA Prototyping Platform - Lab setup
 
-<img src="https://github.com/user-attachments/assets/157ac6fb-461b-402e-96e4-6513b5ec0690" width=850>
+<img src="https://github.com/user-attachments/assets/a6ae9ef1-3186-4321-974c-7e695fa983c7" width=850>
 
 ---
 ### HAPS-SX and Daughter card
