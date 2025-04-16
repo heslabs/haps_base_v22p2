@@ -50,6 +50,9 @@ $(CONFPRO_HOME)/guibin/Confpro-SX-GuiRun.sh
 
 
 ---
-### Step 3: Download FPGA Bitstream
+### Step 3: Download FPGA Bitstream 
 
+### Select FPGA bitstream file (c2cmbz.bit) and program the FPGA
 
+<img src="https://github.com/user-attachments/assets/f06e5de9-b67e-4b43-bdb0-e6c7c93b174b" width=650>
+ 
