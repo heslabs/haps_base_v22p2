@@ -11,7 +11,12 @@ $(CONFPRO_HOME)/guibin/Confpro-SX-GuiRun.sh
 ```
 
 ---
+
+<img src="https://github.com/user-attachments/assets/a32cca22-9007-4ce4-8f42-c9275288065f" width=650>
+ 
 ### Step 2: Configure HAPS
+
+
 
 
 ```
