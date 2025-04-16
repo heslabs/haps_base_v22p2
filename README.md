@@ -11,6 +11,8 @@
     * Running MCU software on both simuation abd FPGA emulation 
 
 ---
+### Training Module
+
 | # | Training Module | Page | Description |
 |:-:|:-|:-|:-|
 | 1 | Vivado HW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/01_Create_HW_Design) | Create RTL hardware design using Vivado |
@@ -21,7 +23,7 @@
 | 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
 ---
-### FPGA Tools
+### FPGA Lab Tools
 
 | FPGA Tools | Vendor | Settings |
 |:-|:-|:-|
