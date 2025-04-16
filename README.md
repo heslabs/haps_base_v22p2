@@ -21,6 +21,17 @@
 | 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
 ---
+### FPGA Tools
+
+| FPGA Tools | Vendor | Settings |
+|:-|:-|:-|
+| HAPS-SX Configuration Tools | E=Elements | /home/eda/Confpro-SX/guibin/Confpro-SX-GuiRun.sh  |
+| Vitis&Vivado License | AMD-Xilinx |export XILINXD_LICENSE_FILE=~/.Xilinx/Xil_License.lic | 
+| AMD-Xilinx Vivado | AMD-Xilinx |export VIVADO_HOME=/home/Vivado/Vitis/2022.2 | 
+| AMD-Xilinx Vitis | AMD-Xilinx |export VITIS_HOME=/home/eda/Vitis/2022.2 |  
+| AMD-Xilinx Vitis HLS | AMD-Xilinx |export VITIS_HLS_HOME=/home/eda/Vitis_HLS/2022.2 |  
+
+---
 ### Learning Prerequisites
 * Verilog design and simluation 
 * FPGA design and implementaiton methodology
@@ -48,16 +59,6 @@
 
 <img src="https://github.com/user-attachments/assets/23fcf5dd-3bff-45a7-8453-76a189d734e6" width=850>
 
----
-### FPGA Tools
-
-| FPGA Tools | Vendor | Settings |
-|:-|:-|:-|
-| HAPS-SX Configuration Tools | E=Elements | /home/eda/Confpro-SX/guibin/Confpro-SX-GuiRun.sh  |
-| Vitis&Vivado License | AMD-Xilinx |export XILINXD_LICENSE_FILE=~/.Xilinx/Xil_License.lic | 
-| AMD-Xilinx Vivado | AMD-Xilinx |export VIVADO_HOME=/home/Vivado/Vitis/2022.2 | 
-| AMD-Xilinx Vitis | AMD-Xilinx |export VITIS_HOME=/home/eda/Vitis/2022.2 |  
-| AMD-Xilinx Vitis HLS | AMD-Xilinx |export VITIS_HLS_HOME=/home/eda/Vitis_HLS/2022.2 |  
 
 
 ---
