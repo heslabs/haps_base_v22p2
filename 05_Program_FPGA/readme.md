@@ -16,12 +16,12 @@ $(CONFPRO_HOME)/guibin/Confpro-SX-GuiRun.sh
  
 ### Step 2: Configure HAPS
 
-#### Load HAPS-SX configuration file: c2cmbz.csprj
+* Load HAPS-SX configuration file: c2cmbz.csprj
 
 <img src="https://github.com/user-attachments/assets/7b156d7e-5f71-4cd4-b54f-ed7e119f25dc" width=650>
 
 ---
-#### FPGA bitstream (c2cmbz.bit) is specified in the configuration file (c2cmbz.csprj)
+* FPGA bitstream (c2cmbz.bit) is specified in the configuration file (c2cmbz.csprj)
 
 ```
 ### c2cmbz.csprj
@@ -45,14 +45,21 @@ $(CONFPRO_HOME)/guibin/Confpro-SX-GuiRun.sh
     "program file name": "c2cmbz.bit"
 ```
 
-#### Step-by-Step configuration
-* https://github.com/heslabs/mpc2c_mcu_v22p2/blob/main/05_Program_FPGA/config-haps.md
+---
+* Step-by-Step configuration
+ * https://github.com/heslabs/mpc2c_mcu_v22p2/blob/main/05_Program_FPGA/config-haps.md
 
 
 ---
 ### Step 3: Download FPGA Bitstream 
 
-### Select FPGA bitstream file (c2cmbz.bit) and program the FPGA
+* Select FPGA bitstream file (c2cmbz.bit) 
 
 <img src="https://github.com/user-attachments/assets/f06e5de9-b67e-4b43-bdb0-e6c7c93b174b" width=650>
  
+---
+* Program FPGA and check the status
+  
+<img src="https://github.com/user-attachments/assets/c8b31b92-f980-4934-b880-daffa5cf670a" width=650>
+
+
