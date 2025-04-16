@@ -1,4 +1,4 @@
-# Program HAPS FPGA
+# Configure and Program HAPS FPGA
  
 
 ---
