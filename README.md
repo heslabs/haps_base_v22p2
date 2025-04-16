@@ -51,8 +51,21 @@
 
 ---
 ### Remote access to HAPS-Zynq module
+
+* Conenct cx5 from remote PC
 ```
 <local> $ sshpass -p demo!@# ssh zynq@59.124.169.195 -X
+```
+
+* Connect SMF card by UART (/dev/ttyUSB0)
+```
+$ ls /dev/tyyUB*
+$ sudo chmod 666 /dev/ttyUSB0
+$ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 &
+```
+
+* Connect to SMF card from cx5
+```
 <zynq@cx5> $ sshpass -p xilinx ssh xilinx@192.168.50.4 -X
 ```
 
