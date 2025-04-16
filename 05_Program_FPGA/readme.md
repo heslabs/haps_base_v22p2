@@ -1,5 +1,6 @@
 # Configure and Program HAPS FPGA
  
+* HAPS Tutorial - Configure and Program FPGA [[Youtube]](https://www.youtube.com/watch?v=xS2tA8sv8OM)
 
 ---
 ### Step 1: Select HAPS System
