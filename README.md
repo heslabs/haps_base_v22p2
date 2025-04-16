@@ -21,10 +21,31 @@
 | 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
 ---
-#### Learning Prerequisites
+### Learning Prerequisites
 * Verilog design and simluation 
 * FPGA design and implementaiton methodology
-* AMBA-based SoC architecture 
+* AMBA-based SoC architecture and UART peripherals
+* Embedded software programming
+
+---
+### FPGA Hardware and Software Design Flow
+1. Create HDL Design using Vivado
+   * Create Block Diagram Design using Vivado
+   * Configure MicroBlaze Processor
+   * Build Hardware Design
+2. Create Application Software Using Vitis
+   * Create Platform Project from the XSA
+   * Create a new Application Project on Platform
+   * Associate ELF and Generate Bitstream (Optional)
+3. Connecting FPGA Hardware  
+   * Connecting HAPS Hardware using Confpro
+   * Connecting HAPS Hardware using Vivado
+   * Connecting HAPS Hardware using XSCT
+4. Launch Application Software 
+   * Launch Application Software using Vitis
+   * Launch Application Software using XSCT
+
+
 
 
 ---
