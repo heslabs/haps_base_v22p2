@@ -16,11 +16,10 @@ $(CONFPRO_HOME)/guibin/Confpro-SX-GuiRun.sh
  
 ### Step 2: Configure HAPS
 
+* Load HAPS-SX configuration file: c2cmbz.csprj
 
+<img src="https://github.com/user-attachments/assets/7b156d7e-5f71-4cd4-b54f-ed7e119f25dc" width=650>
 
-
-```
-```
 
 #### Step-by-Step configuration
 https://github.com/heslabs/mpc2c_mcu_v22p2/blob/main/05_Program_FPGA/config-haps.md
