@@ -55,7 +55,7 @@
 | Device | IP Address | Description | Smart Power - Tapo P300 |
 |:-|:-|:-|:-|
 | HAPS-VU19P | 192.168.50.2 | HAPS-SX VU19P | 192.168.50.92 |
-| HAPS-SMF | 192.168.50.4 | HAPS SMF ZymqMPSoC/CA53 module | 192.168.50.93 |
+| HAPS-SMF | 192.168.50.3 | HAPS SMF ZymqMPSoC/CA53 module | 192.168.50.93 |
 | cx5 | 192.168.50.5 | Linux PC | 192.168.50.99 |
 
 
