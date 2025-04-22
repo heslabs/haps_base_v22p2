@@ -77,4 +77,7 @@ $ cd ./appsw/workspace && vitis --workspace . &
 
 <img src="https://github.com/user-attachments/assets/e6766660-2253-4380-8857-ea0db1f42380" width=800>\
 
+---
+### platform.spr
 
+<img src="https://github.com/user-attachments/assets/fd332116-486f-4df2-921a-5b10a6d1a8b1" width=850>
