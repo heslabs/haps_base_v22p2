@@ -65,7 +65,7 @@ $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 &
 $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 -fn "client:Ubuntu Mono 16" &
 ```
 
-* Connect to SMF card from cx5
+* Connect to SMF card by Ethernet
 ```
 <zynq@cx5> $ sshpass -p xilinx ssh xilinx@192.168.50.4 -X
 ```
