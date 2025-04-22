@@ -62,7 +62,7 @@
 ---
 ### Remote access to HAPS-Zynq module
 
-* Conenct cx5 from remote PC
+* Connect cx5 from remote PC
 ```
 <local> $ sshpass -p demo!@# ssh zynq@59.124.169.195 -X
 ```
