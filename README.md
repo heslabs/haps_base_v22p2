@@ -59,9 +59,10 @@
 
 * Connect SMF card by UART (/dev/ttyUSB0)
 ```
-$ ls /dev/tyyUB*
+$ ls /dev/ttyUB*
 $ sudo chmod 666 /dev/ttyUSB0
 $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 &
+$ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 -fn "client:Ubuntu Mono 16" &
 ```
 
 * Connect to SMF card from cx5
