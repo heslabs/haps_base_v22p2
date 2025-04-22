@@ -4,7 +4,7 @@
     * FPGA reference design for PS+PL on HAPS system architecture architecture
     * AXI-C2C interface between PS (Cortex-A53) and PL on HAPS
     * DDR controller and 16GB DRAM on HAPS
-    * Microbloaze MCU with virtual UART port for simulation and emulaiton 
+    * Microbloaze MCU with virtual UART port for simulation and emulation 
 * Software features
     * Vitis software flow for building Microblaze baremetal software
     * Embedded software reference for running on Microblaze MCU
