@@ -1,4 +1,4 @@
-# HAPS FPGA Design Example
+# HAPS FPGA Design and Verification Example
 
 * Hardware features
     * FPGA reference design for PS+PL on HAPS system architecture architecture
