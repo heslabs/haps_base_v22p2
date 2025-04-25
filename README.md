@@ -20,7 +20,7 @@
 * Embedded software programming
 
 ---
-### Training Syllabus
+### Syllabus
 
 | # | Training Module | Page | Description |
 |:-:|:-|:-|:-|
