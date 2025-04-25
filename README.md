@@ -1,7 +1,7 @@
 # HAPS FPGA Design and Verification Example
 
 ---
-### Learning Aim
+### Course Aim
 * Hardware features
     * FPGA reference design for PS+PL on HAPS system architecture architecture
     * AXI-C2C interface between PS (Cortex-A53) and PL on HAPS
@@ -13,14 +13,14 @@
     * Running MCU software on both simuation abd FPGA emulation 
 
 ---
-### Learning Prerequisites
+### Course Prerequisites
 * Verilog design and simluation 
 * FPGA design and implementaiton methodology
 * AMBA-based SoC architecture and UART peripherals
 * Embedded software programming
-  
+
 ---
-### Training Module
+### Training Syllabus
 
 | # | Training Module | Page | Description |
 |:-:|:-|:-|:-|
