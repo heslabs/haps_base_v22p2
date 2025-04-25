@@ -71,8 +71,8 @@
 ### Remote access to HAPS-Zynq module
 
 * Step-1: Connect HAPS-PC from remote
-   * Configure HAPS and program FPGA
-   * Connect HAPS-ZYNQ by UART (/tty/USB)
+   * Configure HAPS and program FPGA using ConfPro FPGA tools
+   * Connect HAPS-ZYNQ by serial console
 
 ```
 <Remote> $ sshpass -p <password> ssh user@59.124.169.195 -X
