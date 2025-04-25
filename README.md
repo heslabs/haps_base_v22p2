@@ -16,7 +16,7 @@
 ### Course Prerequisites
 * Verilog design and simluation 
 * FPGA design and implementaiton methodology
-* AMBA-based SoC architecture and UART peripherals
+* AMBA-based SoC architecture and peripherals
 * Embedded software programming
 
 ---
