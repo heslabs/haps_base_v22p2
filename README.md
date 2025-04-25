@@ -25,6 +25,13 @@
 ---
 ### FPGA Lab Tools
 
+* 2024.2
+   * AMD Unified Installer for FPGAs & Adaptive SoCs (2024.2) [[docs]](https://docs.amd.com/r/en-US/ug973-vivado-release-notes-install-license/Download-and-Installation)
+   * Installing the Vitis Software Platform (2024.2) [[docs]](https://docs.amd.com/r/en-US/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform)
+* 2022.2
+   * AMD Unified Installer for FPGAs & Adaptive SoCs (2022.2) [[docs]](https://docs.amd.com/r/2022.2-English/ug973-vivado-release-notes-install-license/Download-and-Installation)
+   * Installing the Vitis Software Platform (2022.2) [[docs]](https://docs.amd.com/r/2022.2-English/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform)
+
 | FPGA Tools | Vendor | Settings |
 |:-|:-|:-|
 | HAPS-SX Configuration Tools | E=Elements | /home/eda/Confpro-SX/guibin/Confpro-SX-GuiRun.sh  |
