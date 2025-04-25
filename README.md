@@ -93,6 +93,7 @@ $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 -fn "client:Ubuntu Mono 16" 
 * Step-3: Connect HAPS-ZYNQ from remote
 ```
 <Remote> $ sshpass -p <password> ssh zynq@59.124.169.195 -X
+<HAPS-PC> $ sshpass -p xilinx ssh xilinx@192.169.50.3 -X
 ```
 
 ---
