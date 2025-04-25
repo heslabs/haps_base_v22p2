@@ -70,18 +70,20 @@
 ---
 ### Remote access to HAPS-Zynq module
 
-* Step-1: Connect HAPS-PC from remote
-   * Configure HAPS and program FPGA using ConfPro FPGA tools
-   * Connect HAPS-ZYNQ by serial console
+#### Step-1: Connect HAPS-PC from remote
+
+* Configure HAPS and program FPGA using ConfPro FPGA tools
+* Connect HAPS-ZYNQ via serial console
 
 ```
 <Remote> $ sshpass -p <password> ssh user@59.124.169.195 -X
 ```
 
-* Step-2: Connect HAPS-ZYNQ by serial console from HAPS-PC (/dev/ttyUSB0)
-   * Monitoring the HAPS-ZYNQ Boot Process
-   * Connect a serial cable to the HAPS-ZYNQ and HAPS-PC. Use a terminal program like PuTTY to establish a connection.
-   * The boot messages will be displayed in the console, including the IP address assignment
+#### Step-2: Connect HAPS-ZYNQ by serial console from HAPS-PC (/dev/ttyUSB0)
+
+* Monitoring the HAPS-ZYNQ Boot Process
+* Connect a serial cable to the HAPS-ZYNQ and HAPS-PC. Use a terminal program like PuTTY to establish a connection.
+* The boot messages will be displayed in the console, including the IP address assignment
   
 ```
 $ ls /dev/ttyUB*
@@ -90,7 +92,14 @@ $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 &
 $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 -fn "client:Ubuntu Mono 16" &
 ```
 
-* Step-3: Connect HAPS-ZYNQ from remote
+* Note
+   * A serial console typically does not display graphics; it's a text-based interface designed for basic system diagnostics and troubleshooting, especially when graphical output is unavailable or the operating system is in a non-bootable state.
+
+#### Step-3: Connect HAPS-ZYNQ from remote
+
+* To connect to a HAPS-PC remotely via SSH: `ssh zynq@59.124.169.195 -X`
+* To connect HAPS-ZYNQ from HAPS-PC via ssh: `ssh xilinx@192.169.50.3 -X`
+
 ```
 <Remote> $ sshpass -p <password> ssh zynq@59.124.169.195 -X
 <HAPS-PC> $ sshpass -p xilinx ssh xilinx@192.169.50.3 -X
