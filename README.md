@@ -18,9 +18,9 @@
 | 1 | Vivado HW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/01_Create_HW_Design) | Create RTL hardware design using Vivado |
 | 2 | Vitis SW Development Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/02_Create_Application_SW) | Build MCU baremetal software using Vitis |
 | 3 | Vivado Simulation Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/03_Run_RTL_Simulation) | Running Verilog simulation using Vivado |
-| 4 | Application SW Test Flow | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Run_Software_Application) | Running application software in RTL simulation |
+| 4 | Running RTL Simulation with Software | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/04_Run_Software_Application) | Running application software in RTL simulation |
 | 5 | Configure and Program FPGA | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/05_Program_FPGA) | Configure HAPS and Program FPGA using Confpro-SX GUI |
-| 6 | Running FPGA Emulation | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
+| 6 | Running FPGA Emulation with Software | [Page](https://github.com/heslabs/haps_mcu_v22p2/tree/main/06_Run_FPGA_Emulation) | Running application software in FPGA emulation |
 
 ---
 ### FPGA Lab Tools
@@ -47,8 +47,7 @@
 ### FPGA Prototyping Platform - Lab setup
 **Compile Your Vivado Design in Local and Emulate your Design in the Cloud**
 
-<img src="https://github.com/user-attachments/assets/64571d95-c717-4238-8d31-e67b676a12ea" width=850>
-
+<img src="https://github.com/user-attachments/assets/1c22978b-68b4-4571-8763-56f9f1ca1b64" width=850>
 
 ---
 
