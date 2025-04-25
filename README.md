@@ -11,6 +11,13 @@
     * Running MCU software on both simuation abd FPGA emulation 
 
 ---
+### Learning Prerequisites
+* Verilog design and simluation 
+* FPGA design and implementaiton methodology
+* AMBA-based SoC architecture and UART peripherals
+* Embedded software programming
+  
+---
 ### Training Module
 
 | # | Training Module | Page | Description |
@@ -42,13 +49,6 @@
 | AMD-Xilinx Vivado | AMD-Xilinx |export VIVADO_HOME=/home/Vivado/Vitis/2022.2 | 
 | AMD-Xilinx Vitis | AMD-Xilinx |export VITIS_HOME=/home/eda/Vitis/2022.2 |  
 | AMD-Xilinx Vitis HLS | AMD-Xilinx |export VITIS_HLS_HOME=/home/eda/Vitis_HLS/2022.2 |  
-
----
-### Learning Prerequisites
-* Verilog design and simluation 
-* FPGA design and implementaiton methodology
-* AMBA-based SoC architecture and UART peripherals
-* Embedded software programming
 
 ---
 ### FPGA Prototyping Platform - Lab setup
