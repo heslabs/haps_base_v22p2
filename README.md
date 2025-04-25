@@ -32,7 +32,7 @@
    * AMD Unified Installer for FPGAs & Adaptive SoCs (2022.2) [[docs]](https://docs.amd.com/r/2022.2-English/ug973-vivado-release-notes-install-license/Download-and-Installation)
    * Installing the Vitis Software Platform (2022.2) [[docs]](https://docs.amd.com/r/2022.2-English/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform)
  
-#### Global environemtn settings
+#### Setup Global environment variables
 
 | FPGA Tools | Vendor | Settings |
 |:-|:-|:-|
