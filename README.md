@@ -56,7 +56,7 @@
 ### FPGA Prototyping Platform - Lab setup
 **Compile Your Vivado Design in Local and Emulate your Design in the Cloud**
 
-<img src="https://github.com/user-attachments/assets/1c22978b-68b4-4571-8763-56f9f1ca1b64" width=850>
+<img src="https://github.com/user-attachments/assets/aa1e560b-3e91-4dae-ba2a-79989445ae55" width=850>
 
 ---
 
