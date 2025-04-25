@@ -42,7 +42,7 @@
    * Installing the Vitis Software Platform (2022.2) [[docs]](https://docs.amd.com/r/2022.2-English/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform)
 
 ---
-#### Setup global environment variables
+### Setup global environment variables
 
 | FPGA Tools | Vendor | Settings |
 |:-|:-|:-|
