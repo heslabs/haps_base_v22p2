@@ -72,10 +72,10 @@
 
 * Connect cx5 from remote PC
 ```
-<local> $ sshpass -p demo!@# ssh zynq@59.124.169.195 -X
+<local> $ sshpass -p <password> ssh zynq@59.124.169.195 -X
 ```
 
-* Connect SMF card by UART (/dev/ttyUSB0)
+* Connect ZYNQ card by UART (/dev/ttyUSB0)
 ```
 $ ls /dev/ttyUB*
 $ sudo chmod 666 /dev/ttyUSB0
@@ -86,9 +86,14 @@ $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 -fn "client:Ubuntu Mono 16" 
 ---
 <img src="https://github.com/user-attachments/assets/803cfcd7-3f85-40ba-a481-d5a575068592" width=550>
 
+---
+* Connect to ZYNQ card by Ethenet (from internet)
+```
+<zynq@cx5> $ sshpass -p <password> ssh zynq@59.124.169.195 -X
+```
 
 ---
-* Connect to SMF card by Ethernet
+* Connect to ZYNQ card by Ethernet (from intranet)
 ```
 <zynq@cx5> $ sshpass -p xilinx ssh xilinx@192.168.50.3 -X
 ```
