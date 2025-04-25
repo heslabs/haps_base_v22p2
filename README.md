@@ -1,5 +1,7 @@
 # HAPS FPGA Design and Verification Example
 
+---
+### Learning Aim
 * Hardware features
     * FPGA reference design for PS+PL on HAPS system architecture architecture
     * AXI-C2C interface between PS (Cortex-A53) and PL on HAPS
