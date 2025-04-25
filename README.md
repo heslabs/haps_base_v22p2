@@ -70,12 +70,19 @@
 ---
 ### Remote access to HAPS-Zynq module
 
-* Connect cx5 from remote PC
+* Step-1: Connect HAPS-PC from remote
+   * Configure HAPS and program FPGA
+   * Connect HAPS-ZYNQ by UART (/tty/USB)
+
 ```
-<local> $ sshpass -p <password> ssh zynq@59.124.169.195 -X
+<Remote> $ sshpass -p <password> ssh user@59.124.169.195 -X
 ```
 
-* Connect ZYNQ card by UART (/dev/ttyUSB0)
+* Step-2: Connect HAPS-ZYNQ by serial console from HAPS-PC (/dev/ttyUSB0)
+   * Monitoring the HAPS-ZYNQ Boot Process
+   * Connect a serial cable to the HAPS-ZYNQ and HAPS-PC. Use a terminal program like PuTTY to establish a connection.
+   * The boot messages will be displayed in the console, including the IP address assignment
+  
 ```
 $ ls /dev/ttyUB*
 $ sudo chmod 666 /dev/ttyUSB0
@@ -83,20 +90,14 @@ $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 &
 $ putty -serial -sercfg 115200,8,n,1,N /dev/ttyUSB0 -fn "client:Ubuntu Mono 16" &
 ```
 
+* Step-3: Connect HAPS-ZYNQ from remote
+```
+<Remote> $ sshpass -p <password> ssh zynq@59.124.169.195 -X
+```
+
 ---
 <img src="https://github.com/user-attachments/assets/803cfcd7-3f85-40ba-a481-d5a575068592" width=550>
 
----
-* Connect to ZYNQ card by Ethenet (from internet)
-```
-<zynq@cx5> $ sshpass -p <password> ssh zynq@59.124.169.195 -X
-```
-
----
-* Connect to ZYNQ card by Ethernet (from intranet)
-```
-<zynq@cx5> $ sshpass -p xilinx ssh xilinx@192.168.50.3 -X
-```
 
 ---
 ### HAPS-SX and Daughter card
