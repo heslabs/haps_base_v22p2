@@ -92,5 +92,10 @@ $ cd ./appsw/workspace && vitis --workspace . &
 
 <img src="https://github.com/user-attachments/assets/5d5e3730-243a-4e42-a24a-4d0b8347651e" width=850>
 
+---
+### microblaze -> bsp -> system.mss
+
+<img src="https://github.com/user-attachments/assets/6e3bbc47-f0a8-471c-9be3-a16492a1f238" width=850>
+
 
 
