@@ -103,5 +103,5 @@ $ cd ./appsw/workspace && vitis --workspace . &
 
 /platform/Settinhs/vitis-comp.jason
 
-<img src="https://github.com/user-attachments/assets/d2473c74-5597-40e7-b8c3-07efb9bc3b0e" width=850>
+<img src="https://github.com/user-attachments/assets/d2473c74-5597-40e7-b8c3-07efb9bc3b0e" width=1050>
 
