@@ -81,3 +81,15 @@ $ cd ./appsw/workspace && vitis --workspace . &
 ### platform.spr
 
 <img src="https://github.com/user-attachments/assets/fd332116-486f-4df2-921a-5b10a6d1a8b1" width=850>
+
+---
+### microblaze -> bsp -> system.mss
+
+![image](https://github.com/user-attachments/assets/8a9c0619-c287-4fdb-8f0a-931bfcc0ce69)
+
+---
+### microblaze -> bsp -> system.mss -> mem_1
+
+
+
+
