@@ -85,11 +85,12 @@ $ cd ./appsw/workspace && vitis --workspace . &
 ---
 ### microblaze -> bsp -> system.mss
 
-![image](https://github.com/user-attachments/assets/8a9c0619-c287-4fdb-8f0a-931bfcc0ce69)
+<img src="https://github.com/user-attachments/assets/8a9c0619-c287-4fdb-8f0a-931bfcc0ce69" width=850>
 
 ---
 ### microblaze -> bsp -> system.mss -> mem_1
 
+<img src="https://github.com/user-attachments/assets/5d5e3730-243a-4e42-a24a-4d0b8347651e" width=850>
 
 
 
