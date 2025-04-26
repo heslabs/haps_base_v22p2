@@ -98,4 +98,10 @@ $ cd ./appsw/workspace && vitis --workspace . &
 <img src="https://github.com/user-attachments/assets/6e3bbc47-f0a8-471c-9be3-a16492a1f238" width=850>
 
 
+---
+### 2024.2 Microblaze bsp settings
+
+/platform/Settinhs/vitis-comp.jason
+
+<img src="https://github.com/user-attachments/assets/d2473c74-5597-40e7-b8c3-07efb9bc3b0e" width=850>
 
