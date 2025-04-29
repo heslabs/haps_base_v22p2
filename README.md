@@ -37,10 +37,7 @@
 * 2024.2
    * AMD Unified Installer for FPGAs & Adaptive SoCs (2024.2) [[docs]](https://docs.amd.com/r/en-US/ug973-vivado-release-notes-install-license/Download-and-Installation)
    * Installing the Vitis Software Platform (2024.2) [[docs]](https://docs.amd.com/r/en-US/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform)
-* 2022.2
-   * AMD Unified Installer for FPGAs & Adaptive SoCs (2022.2) [[docs]](https://docs.amd.com/r/2022.2-English/ug973-vivado-release-notes-install-license/Download-and-Installation)
-   * Installing the Vitis Software Platform (2022.2) [[docs]](https://docs.amd.com/r/2022.2-English/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform)
-
+ 
 ---
 ### Setup global environment variables
 
@@ -48,9 +45,9 @@
 |:-|:-|:-|
 | HAPS-SX Configuration Tools | E=Elements | /home/eda/Confpro-SX/guibin/Confpro-SX-GuiRun.sh  |
 | Vitis&Vivado License | AMD-Xilinx |export XILINXD_LICENSE_FILE=~/.Xilinx/Xil_License.lic | 
-| AMD-Xilinx Vivado | AMD-Xilinx |export VIVADO_HOME=/home/Vivado/Vitis/2022.2 | 
-| AMD-Xilinx Vitis | AMD-Xilinx |export VITIS_HOME=/home/eda/Vitis/2022.2 |  
-| AMD-Xilinx Vitis HLS | AMD-Xilinx |export VITIS_HLS_HOME=/home/eda/Vitis_HLS/2022.2 |  
+| AMD-Xilinx Vivado | AMD-Xilinx |export VIVADO_HOME=/home/Vivado/Vitis/2024.2 | 
+| AMD-Xilinx Vitis | AMD-Xilinx |export VITIS_HOME=/home/eda/Vitis/2024.2 |  
+| AMD-Xilinx Vitis HLS | AMD-Xilinx |export VITIS_HLS_HOME=/home/eda/Vitis_HLS/2024.2 |  
 
 ---
 ### FPGA Prototyping Platform - Lab setup
