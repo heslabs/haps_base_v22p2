@@ -89,14 +89,13 @@
 
 #### Step-2: Connect HAPS-PC from remote
 
-* Configure HAPS and program FPGA using ConfPro FPGA tools
 * Connect HAPS-ZYNQ via serial console
 
 ```
 <Remote> $ sshpass -p <password> ssh user@59.124.169.195 -X
 ```
 
-#### Step-3: Connect HAPS-ZYNQ via serial console from HAPS-PC (/dev/ttyUSB0)
+#### Step-3: Connect HAPS-ZYNQ via serial console from HAPS-PC  
 
 * Monitoring the HAPS-ZYNQ Boot Process
 * Connect a serial cable to the HAPS-ZYNQ and HAPS-PC. Use a terminal program like PuTTY to establish a connection.
@@ -120,9 +119,9 @@ password: xilinx
 
 
 
-#### Step-4: Connect HAPS-ZYNQ via Ethernet from HAPS-PC (xilinx@192.169.50.3)
+#### Step-4: Connect HAPS-ZYNQ via Ethernet from HAPS-PC  
 
-* To connect HAPS-ZYNQ from HAPS-PC via ssh: `ssh xilinx@192.169.50.3 -X`
+* To connect HAPS-ZYNQ from HAPS-PC via ssh:  
 
 ```
 <HAPS-PC> $ sshpass -p xilinx ssh xilinx@192.169.50.3 -X
@@ -130,7 +129,7 @@ password: xilinx
 
 #### Step-5:
 
-* Chech the 16GB DDR is in the memory map
+* Check the 16GB DDR og HAPS system is in the Linux memory map
 
 ```
 xilinx@pynq:~/haps$ lsmem
