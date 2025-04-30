@@ -263,9 +263,19 @@ $(CONFPRO_HOME)/guibin/Confpro-SX-GuiRun.sh
 * Launch Xilinx system command line tool with tcl script
 * Check the results in "uart.log"
 
+
+#### Launch console in GUI mode
 ```
-$ xsct ../scripts/xsct_uartcmd.tcl $(HAPS_IP)
+xsct ./xsct_uartgui.tcl 192.168.50.2:2542 ./PASS.elf
 ```
+
+#### Launch console in command mode
+```
+xsct ./xsct_uartcmd.tcl 192.168.50.2:2542 ./PASS.elf; cat ./uart.log
+```
+
+
+---
 
 
 
