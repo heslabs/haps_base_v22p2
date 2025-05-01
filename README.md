@@ -70,13 +70,10 @@
 ---
 ### Remote access to HAPS Hardware Platform
 
-#### EPS-VU19P
-https://github.com/heslabs/haps19p_base_v24p2
-
-#### EPS-VU13P
-https://github.com/heslabs/haps13p_base_v24p2
-
-
+* EPS-VU19P
+   * https://github.com/heslabs/haps19p_base_v24p2
+* EPS-VU13P
+   * https://github.com/heslabs/haps13p_base_v24p2
 
 ---
 ### HAPS-SX and Daughter card
