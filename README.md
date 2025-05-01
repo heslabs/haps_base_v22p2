@@ -67,6 +67,16 @@
 * The smart WiFi plug is used to reset HAPS-ZYNQ after HAPS-FPGA programmed
    * Tapo P105 | Mini Smart Wi-Fi Plug [[Tapo]](https://www.tapo.com/en/product/smart-plug/tapo-p105/)
 
+---
+### Remote access to HAPS Hardware Platform
+
+#### EPS-VU19P
+https://github.com/heslabs/haps19p_base_v24p2
+
+#### EPS-VU13P
+https://github.com/heslabs/haps13p_base_v24p2
+
+
 
 ---
 ### HAPS-SX and Daughter card
